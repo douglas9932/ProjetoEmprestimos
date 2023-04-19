@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Home{
+    position: absolute;
+    display:flex;
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+}
+/* form{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+} */
+.form{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.Linha{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+}
+.Coluna{
+    display: flex;
+    height: 100%;
+    flex-flow: column wrap;
+}
+
+/* - MENU - */
+.Menu{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 3px;
+    padding-top: 3%;
+    width: 10%;
+    background-color: blueviolet;
+}
+
+.BtnMenu{
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 5px;
+    width: 100%;
+    height: 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+
+/* - - */
+.CorpoPaginaHome{    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:  rgb(0, 255, 34);
+}
+.NavBar{
+    display: flex;
+    height: 20px;
+    max-height: 20px;
+    min-height: 20px;
+    padding: 8px;
+    padding-top: 5px;
+    gap:10px;
+    align-items: center;
+    align-content: flex-end;
+    flex-flow: column wrap;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 225, 0));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color:  black;
+}
+.NavBar .BtnSair{
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    width: auto;
+}
+.NavBar .BtnEditar{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    border-style: none;
+    align-items: center;
+    background-color: transparent;
+    width:auto;
+}
+.NavBar button:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.imgBtn{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+.PaginaAtual{
+    display: flex;
+    padding: 5px;
+    height: 100%;
+    background-color: rgb(219, 219, 219);
+    flex-direction: column;
+    
+}
+.Menu .BtnHome{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.402);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Menu .BtnHome a{
+    padding-left: 10px;
+}
+.Menu .BtnHome .ImgHome{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+
+/*GRID*/
+.alignLeft{
+    text-align: left;
+}
+.alignRight{
+    text-align: right;
+}
+.alignCenter{
+    text-align: center;
+}
+.CollButton{
+    width:auto;
+}
+
+.BtnEdit{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border-style: none;
+    background-color: rgba(94, 94, 94, 0.664);
+}
+.BtnEdit img{
+    width: 70%;
+    height: 70%;
+}
+
+.BtnDevolucao{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border-style: none;
+    background-color: rgba(0, 139, 23, 0.685);
+}
+.BtnDevolucao img{
+    width: 90%;
+    height: 90%;
+}
+
+.Filtros{
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+    /* height: 100%;
+    max-height:100% ; */
+}
+.TituloFormulario{
+    width: 100%;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.NenhumDadoEncontrado{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.Grid{
+    display: flex;               
+    bottom:5px; 
+    width: 100%;
+    height: 100%;
+    max-height:100%;
+    background-color: rgba(53, 53, 53, 0.39);
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.664);
+    border-style: solid;
+    flex-direction: column;
+}
+.table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid;
+    padding: 2px;
+    padding-left: 5px;
+    
+    font-size: 14px;
+}
+
+table,tr, th{
+    background-color: rgb(124, 124, 124);
+}
+
+table,tr, td{
+    background-color: rgba(255, 255, 255);
+}
+
+table, tr{    
+    max-height: 60px;
+}
+
+.ItemDevolverHoje{
+    background-color: rgb(255, 179, 0);
+    color:rgb(0, 0, 0);
+}
+.ItemAtrasado{
+    background-color: rgb(233, 0, 0);
+    color:rgb(255, 255, 255);
+}
