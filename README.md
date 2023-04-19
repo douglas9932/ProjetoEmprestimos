@@ -12,4 +12,4 @@ Projeto básico utilizando HTML, CSS, PHP e MySql
 
 2- Adicionar a pasta Site em: 'C:/xampp/htdocs'
 
-3- Abrir o Navegador e digitar 'Localhost/Site/Formularios'
+3- Abrir o Navegador e digitar 'Localhost/Site/Formularios/Login'
