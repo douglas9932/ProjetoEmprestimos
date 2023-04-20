@@ -4,7 +4,7 @@
 <button name="BtnConsultarItens" class="BtnMenu">Consultar Itens</button>
 <button name="BtnCadastrarUsuario" class="BtnMenu">Cadastrar Usuarios</button>
 <button name="BtnConsultarUsuarios" class="BtnMenu">Consultar Usuarios</button>
-<button name="BtnRealizarEmprestimo" class="BtnMenu">Realizar Emprestado</button>                
+<button name="BtnRealizarEmprestimo" class="BtnMenu">Realizar Emprestimo</button>                
 </form>
 
 <div class="CorpoPaginaHome">
