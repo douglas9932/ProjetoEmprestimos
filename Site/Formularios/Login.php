@@ -40,7 +40,7 @@
 
 		if(!empty($email) && !empty($senha))
 		{
-			$BancoDados->conectarBanco("bancosistemawebatp", "localhost","root","Root");
+			$BancoDados->conectarBanco();
 			
 			if($User->msgErro =="")
 			{	

@@ -18,6 +18,7 @@
 --
 -- Table structure for table `tbsituacao`
 --
+use bancosistemawebatp;
 
 DROP TABLE IF EXISTS `tbsituacao`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

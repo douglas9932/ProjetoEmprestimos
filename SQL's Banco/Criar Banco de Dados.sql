@@ -1,2 +1,2 @@
 
-create database 'bancosistemawebatp'
+create database bancosistemawebatp

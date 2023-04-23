@@ -61,7 +61,7 @@
 
                                 if(!empty($Descricao) && !empty($Quantidade) && !empty($Valor))
                                 {
-                                    $BancoDados->conectarBanco("bancosistemawebatp", "localhost","root","Root");
+                                    $BancoDados->conectarBanco();
 
                                     if($ItensController->CadastrarItem($Descricao,$Quantidade,$Valor))
                                     {

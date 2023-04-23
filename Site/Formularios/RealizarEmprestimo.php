@@ -122,7 +122,7 @@
                                 
                                 if(!empty($DataDevolucao) && !empty($Quantidade))
                                 {
-                                    $BancoDados->conectarBanco("bancosistemawebatp", "localhost","root","Root");
+                                    $BancoDados->conectarBanco();
 
                                     if($EmprestimoController->RealizaEmprestimo($DataDevolucao,$Quantidade,0))
                                     {
@@ -193,7 +193,7 @@
                                 
                                 if(!empty($DataDevolucao) && !empty($Quantidade))
                                 {
-                                    $BancoDados->conectarBanco("bancosistemawebatp", "localhost","root","Root");
+                                    $BancoDados->conectarBanco();
 
                                     if($EmprestimoController->RealizaEmprestimo($DataDevolucao,$Quantidade,$Item))
                                     {

@@ -86,7 +86,7 @@
 
                                 if(!empty($nome) && !empty($telefone) && !empty($email) && !empty($senha) && !empty($confimarSenha))
                                 {
-                                    $BancoDados->conectarBanco("bancosistemawebatp", "localhost","root","Root");
+                                    $BancoDados->conectarBanco();
 
                                     if($User->msgErro =="")
                                     {	if($senha == $confimarSenha)

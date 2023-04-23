@@ -13,7 +13,7 @@ Class HomeController{
 
         require_once ".././Class/BancoDados.php";
         $BancoDados = new BancoDados;
-        $BancoDados->conectarBanco("bancosistemawebatp", "localhost","root","Root"); 
+        $BancoDados->conectarBanco(); 
 
         global $db;
 
