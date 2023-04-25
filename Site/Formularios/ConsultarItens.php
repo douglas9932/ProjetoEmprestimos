@@ -46,7 +46,7 @@
                         <div id="Grid" class="Grid">
                             <form method="GET">
                                 <?php                        
-                                    echo $ItensController->BuscarItens();
+                                    print $ItensController->BuscarItens();
                                 ?>    
                             </form>                                                
                     </div>

@@ -5,7 +5,7 @@
     
  if(!empty($_GET['id']))
  {   
-    echo $_GET['id'];
+    print $_GET['id'];
   
     require_once "../Class/BancoDados.php";
     $BancoDados = new BancoDados;
@@ -29,7 +29,7 @@
 
     }else
     {
-        echo "Empréstimo Não Encontrado!";
+        print "Empréstimo Não Encontrado!";
     }
  }
 $Routes->Home();

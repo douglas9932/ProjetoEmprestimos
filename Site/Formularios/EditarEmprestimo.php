@@ -8,8 +8,8 @@
     $_SESSION['EDITAR_EMPRESTIMO'] = "true";
     $_SESSION['EDITAR_IDEMPRESTIMO'] = $_GET['id'];
 
-    echo $_SESSION['EDITAR_EMPRESTIMO'];
-    echo $_SESSION['EDITAR_IDEMPRESTIMO'];
+    print $_SESSION['EDITAR_EMPRESTIMO'];
+    print $_SESSION['EDITAR_IDEMPRESTIMO'];
 
     $Routes->EditarEmprestimo();
 

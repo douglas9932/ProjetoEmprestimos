@@ -47,7 +47,7 @@
                         <div class="Componentes">
                             <form method="POST">
                             <?php
-                                echo $EmprestimoController->EditandoEmprestimo();
+                                print $EmprestimoController->EditandoEmprestimo();
                             ?>  
                                 <div>
                                     <button type="submit" class="Cadastrar">Salvar</button>
@@ -69,7 +69,7 @@
                                     </div> 
                                     <div>
                                     <?php                        
-                                            echo $EmprestimoController->BuscarItens();
+                                            print $EmprestimoController->BuscarItens();
                                     ?> 
                                     </div>   
                                     <div>

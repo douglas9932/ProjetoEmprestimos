@@ -7,7 +7,7 @@
 
     if(!empty($_GET['id']))
     {   
-        echo $_GET['id'];
+        print $_GET['id'];
         
         require_once "../Class/BancoDados.php";
         $BancoDados = new BancoDados;
@@ -25,13 +25,13 @@
 
         if($sql->rowCount() <= 0)
         {
-            echo "\nEmprestando...\n";
+            print "\nEmprestando...\n";
             
             if(isset($_POST['Quantidade']))
             {
-                echo "- ".$_POST["Quantidade"];
+                print "- ".$_POST["Quantidade"];
             }else{
-                echo "\nNÃO";
+                print "\nNÃO";
             }
             // $dado=$sql->fetch();
             // $sql = $db->prepare("INSERT INTO TBEMPRESTIMOS (IDUSUARIO,IDITEM,QUANTIDADE,DATAEMPRESTIMO,DATADEVOLUCAO,IDSITUACAO) VALUES (:User,:Item,:Qtd,:DtEmp,:DtDev,3);");

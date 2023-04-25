@@ -57,7 +57,7 @@
                             <?php 
                                 if($_SESSION['EDITARUSUARIO']=="true")
                                 {
-                                    echo $User->EditarUsuario();
+                                    print $User->EditarUsuario();
                                     
                                 }else{                                
                                     ?>
@@ -122,7 +122,7 @@
                                         ?>
                                             <div class="msg_Error">
                                                 <?php
-                                                    echo "Erro: ".$User.msgErro;
+                                                    print "Erro: ".$User.msgErro;
                                                 ?>
                                             </div>
                                         <?php

@@ -46,7 +46,7 @@
                         <div id="Grid" class="Grid">
                             <form method="GET">
                                 <?php                        
-                                    echo $UsuariosController->BuscarUsuarios();
+                                    print $UsuariosController->BuscarUsuarios();
                                 ?>    
                             </form>                                                
                     </div>

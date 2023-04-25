@@ -42,7 +42,7 @@
                     </div>
                     <div id="Grid" class="Grid">                        
                             <?php   
-                                echo $HomeController->BuscaEmprestimos();                
+                                print $HomeController->BuscaEmprestimos();                
                             ?>                               
                     </div>
                 </div>
